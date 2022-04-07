@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <headerType>gui</headerType>
+  <dontWrapJar>true</dontWrapJar>
+  <downloadUrl>https://adoptium.net/</downloadUrl>
+  <outfile>C:\Users\Geralt\Desktop\ФПАКТИБ\Processing\Processing\MandelBulb_Cloud\windows-amd64\MandelBulb_Cloud.exe</outfile>
+  <icon>C:\Users\Geralt\Desktop\ФПАКТИБ\processing-4.0b7-windows-x64\processing-4.0b7\modes\java\application\application.ico</icon>
+  <classPath>
+    <mainClass>MandelBulb_Cloud</mainClass>
+    <cp>lib/MandelBulb_Cloud.jar</cp>
+    <cp>lib/core.jar</cp>
+    <cp>lib/gluegen-rt.jar</cp>
+    <cp>lib/jogl-all.jar</cp>
+    <cp>lib/peasy-math.jar</cp>
+    <cp>lib/peasycam.jar</cp>
+  </classPath>
+  <jre>
+    <path>java</path>
+    <minVersion>17</minVersion>
+    <opt>-Djna.nosys=true</opt>
+    <opt>-Djava.library.path="%EXEDIR%\lib"</opt>
+  </jre>
+</launch4jConfig>

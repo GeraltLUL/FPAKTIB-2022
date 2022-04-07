@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <target name="windows">
+    <taskdef classname="net.sf.launch4j.ant.Launch4jTask" classpath="C:\Users\Geralt\Desktop\ФПАКТИБ\processing-4.0b7-windows-x64\processing-4.0b7\modes\java\application\launch4j/launch4j.jar:C:\Users\Geralt\Desktop\ФПАКТИБ\processing-4.0b7-windows-x64\processing-4.0b7\modes\java\application\launch4j/lib/xstream.jar" name="launch4j"/>
+    <launch4j configFile="C:\Users\Geralt\Desktop\ФПАКТИБ\Processing\Processing\MandelBulb_Cloud\windows-amd64\launch4j-config.xml"/>
+  </target>
+</project>
